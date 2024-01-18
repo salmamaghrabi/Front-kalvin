@@ -1,0 +1,154 @@
+.home 
+{
+    height: 700px;
+    background-image: url(../images/img-1%20h.jpg);
+}
+.home1
+{
+    position: relative;
+}
+
+.hom
+{
+    background-color: rgba(0,0,0,0.5);
+    height:100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    color: #fff;
+}
+.hom h1 
+{
+    padding-top: 200px;
+    padding-left: 50px;
+    font-weight: 900;
+    font-size: 80px;
+}
+.para 
+{
+    padding-left: 50px;
+    font-size: 30px;
+    color: #fff;
+}
+.para:after
+{   content: "|";
+    animation-name: dd;
+     animation-duration:2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes dd
+{
+    
+     0%{ content: "|"}
+    25%{content: "designing UI/UX"}
+    50%{content: "creating websites|"}
+    75%{content: "Designing logo|"}
+    100%{content: "|"}
+}
+
+/*.nav-link
+{
+    border-bottom: solid 3px #fff;
+    
+}*/
+.navbar 
+{
+    height: 80px;
+}
+.navbar .bg-dark
+{
+    background-color: rgba(0,0,0,0.1);
+}
+.navbar-nav 
+{
+    margin-left:700px !important ;
+}
+.navbar-brand 
+{
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+.container .bg-light
+{
+    height: 150px;
+        
+}
+/*.info
+{
+     text-align: left;
+    margin-top: 60px;
+    margin-right: 60px;
+    float: right;
+    position: absolute;
+}*/
+
+.pro
+{
+    overflow:hidden;
+    height: 520px;
+    position: relative;
+    
+}
+.photo
+{
+    width: 450px;
+    height: 450px;
+    top: 60px;
+    left: 60px;    
+    background-color: lightgray;
+    position: relative;
+    float: left;
+    
+    
+}
+.pro img 
+{
+    width: 100%;
+    height: 100%;
+    top: 30px;
+    left: 30px;
+    border-radius:5px;
+    position:absolute;
+}
+.photo
+{
+    box-shadow: 2px 2px 2px 2px rgb(116, 129, 130);
+}
+.btn 
+{
+    border-radius: 1px;
+}
+.about
+{
+    height: 500px;
+}
+.ser {
+    height: 600px;
+    background-color: lightgray;
+}
+.stats
+{ background-image: url(../images/stats-bg.jpg);
+    background-size: 100% 100% ;
+    background-attachment: fixed;
+    height: 300px;
+ }
+.bg
+{
+    background-color: rgba(0,0,0,0.7);
+    height: 300px;
+}
+.col-md-3
+{
+    color: #fff;
+}
+.col-md-3 h2
+{
+    font-weight: 700;
+}
+.test
+{
+    padding-top:150px;
+        
+}
